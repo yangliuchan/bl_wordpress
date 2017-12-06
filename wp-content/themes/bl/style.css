@@ -6,3 +6,16 @@ Template: Kratos-master
 */
 
 @import url("../Kratos-master/style.css");
+
+#kratos-header{
+    height:10rem;
+}
+#kratos-logo a {
+    color: #000;
+}
+.sf-menu a{
+    color: #3A3A3A;
+}
+.sf-menu li.current-menu-item a{
+    color: #00a0d2;
+}
