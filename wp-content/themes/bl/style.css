@@ -8,14 +8,28 @@ Template: Kratos-master
 @import url("../Kratos-master/style.css");
 
 #kratos-header{
-    height:10rem;
+    height:80px;
+    background: #fff;
+}
+#kratos-logo{
+    margin-top: 20px;
 }
 #kratos-logo a {
     color: #000;
+}
+#kratos-menu-wrap{
+    margin-top:11px;
 }
 .sf-menu a{
     color: #3A3A3A;
 }
 .sf-menu li.current-menu-item a{
-    color: #00a0d2;
+    color: #00aadc;
+}
+.sf-menu a:focus,.sf-menu a:hover {
+    color: #00aadc!important
+}
+#kratos-logo a:focus,#kratos-logo a:hover {
+    color: #00aadc!important;
+    text-decoration: none
 }
