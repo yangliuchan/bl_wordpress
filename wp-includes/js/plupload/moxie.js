@@ -954,7 +954,7 @@ define("moxie/core/utils/Env", [
 	    // vm maps textual PHP versions to negatives so they're less than 0.
 	    // PHP currently defines these as CASE-SENSITIVE. It is important to
 	    // leave these as negatives so that they can come before numerical versions
-	    // and as if no letters were there to begin with.
+	    // and as if no letters were there to Begin with.
 	    // (1alpha is < 1 and < 1.1 but > 1dev1)
 	    // If a non-numerical value can't be mapped to this table, it receives
 	    // -7 as its value.

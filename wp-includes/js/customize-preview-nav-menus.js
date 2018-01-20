@@ -146,7 +146,7 @@ wp.customize.navMenusPreview = wp.customize.MenusCustomizerPreview = ( function(
 				 * the setting in the preview would not, thus triggering a change event. The following
 				 * condition short-circuits this unnecessary selective refresh and also prevents an infinite
 				 * loop in the case where a nav_menu_instance partial had done a fallback refresh.
-				 * @todo Nav menu item settings should not include a type_label property to begin with.
+				 * @todo Nav menu item settings should not include a type_label property to Begin with.
 				 */
 				isNavMenuItemSetting = /^nav_menu_item\[/.test( setting.id );
 				if ( isNavMenuItemSetting && _.isObject( newValue ) && _.isObject( oldValue ) ) {

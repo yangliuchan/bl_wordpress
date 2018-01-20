@@ -411,7 +411,7 @@ class SimplePie_Item
 	 * Get a category for the item
 	 *
 	 * @since Beta 3 (previously called `get_categories()` since Beta 2)
-	 * @param int $key The category that you want to return.  Remember that arrays begin with 0, not 1
+	 * @param int $key The category that you want to return.  Remember that arrays Begin with 0, not 1
 	 * @return SimplePie_Category|null
 	 */
 	public function get_category($key = 0)
@@ -496,7 +496,7 @@ class SimplePie_Item
 	 * Get an author for the item
 	 *
 	 * @since Beta 2
-	 * @param int $key The author that you want to return.  Remember that arrays begin with 0, not 1
+	 * @param int $key The author that you want to return.  Remember that arrays Begin with 0, not 1
 	 * @return SimplePie_Author|null
 	 */
 	public function get_author($key = 0)
@@ -516,7 +516,7 @@ class SimplePie_Item
 	 * Get a contributor for the item
 	 *
 	 * @since 1.1
-	 * @param int $key The contrbutor that you want to return.  Remember that arrays begin with 0, not 1
+	 * @param int $key The contrbutor that you want to return.  Remember that arrays Begin with 0, not 1
 	 * @return SimplePie_Author|null
 	 */
 	public function get_contributor($key = 0)
@@ -946,7 +946,7 @@ class SimplePie_Item
 	 * Get a single link for the item
 	 *
 	 * @since Beta 3
-	 * @param int $key The link that you want to return.  Remember that arrays begin with 0, not 1
+	 * @param int $key The link that you want to return.  Remember that arrays Begin with 0, not 1
 	 * @param string $rel The relationship of the link to return
 	 * @return string|null Link URL
 	 */
@@ -1053,7 +1053,7 @@ class SimplePie_Item
 	 *
 	 * @since Beta 2
 	 * @todo Add ability to prefer one type of content over another (in a media group).
-	 * @param int $key The enclosure that you want to return.  Remember that arrays begin with 0, not 1
+	 * @param int $key The enclosure that you want to return.  Remember that arrays Begin with 0, not 1
 	 * @return SimplePie_Enclosure|null
 	 */
 	public function get_enclosure($key = 0, $prefer = null)

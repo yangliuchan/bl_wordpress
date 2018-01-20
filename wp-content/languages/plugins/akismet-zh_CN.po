@@ -309,7 +309,7 @@ msgid "Enabled."
 msgstr "启用。"
 
 #: views/config.php:92
-msgid "Akismet encountered a problem with a previous SSL request and disabled it temporarily. It will begin using SSL for requests again shortly."
+msgid "Akismet encountered a problem with a previous SSL request and disabled it temporarily. It will Begin using SSL for requests again shortly."
 msgstr "Akismet在早前进行SSL请求时遇到了错误并已暂时将其禁用。Akismet将随即恢复使用SSL作出请求。"
 
 #: views/config.php:92

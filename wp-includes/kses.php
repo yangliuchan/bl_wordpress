@@ -1100,7 +1100,7 @@ function wp_kses_hair_parse( $attr ) {
 	.     '\[\[?[^\[\]]+\]\]?' // Shortcode in the name position implies unfiltered_html.
 	. ')'
 	. '(?:'               // Attribute value.
-	.     '\s*=\s*'       // All values begin with '='
+	.     '\s*=\s*'       // All values Begin with '='
 	.     '(?:'
 	.         '"[^"]*"'   // Double-quoted
 	.     '|'

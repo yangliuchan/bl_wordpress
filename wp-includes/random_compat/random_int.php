@@ -133,7 +133,7 @@ function random_int($min, $max)
     }
 
     /**
-     * Now that we have our parameters set up, let's begin generating
+     * Now that we have our parameters set up, let's Begin generating
      * random integers until one falls between $min and $max
      */
     do {

@@ -2049,7 +2049,7 @@ class SimplePie
 	 * Get a category for the feed
 	 *
 	 * @since Unknown
-	 * @param int $key The category that you want to return.  Remember that arrays begin with 0, not 1
+	 * @param int $key The category that you want to return.  Remember that arrays Begin with 0, not 1
 	 * @return SimplePie_Category|null
 	 */
 	public function get_category($key = 0)
@@ -2134,7 +2134,7 @@ class SimplePie
 	 * Get an author for the feed
 	 *
 	 * @since 1.1
-	 * @param int $key The author that you want to return.  Remember that arrays begin with 0, not 1
+	 * @param int $key The author that you want to return.  Remember that arrays Begin with 0, not 1
 	 * @return SimplePie_Author|null
 	 */
 	public function get_author($key = 0)
@@ -2232,7 +2232,7 @@ class SimplePie
 	 * Get a contributor for the feed
 	 *
 	 * @since 1.1
-	 * @param int $key The contrbutor that you want to return.  Remember that arrays begin with 0, not 1
+	 * @param int $key The contrbutor that you want to return.  Remember that arrays Begin with 0, not 1
 	 * @return SimplePie_Author|null
 	 */
 	public function get_contributor($key = 0)
@@ -2318,7 +2318,7 @@ class SimplePie
 	 * Get a single link for the feed
 	 *
 	 * @since 1.0 (previously called `get_feed_link` since Preview Release, `get_feed_permalink()` since 0.8)
-	 * @param int $key The link that you want to return.  Remember that arrays begin with 0, not 1
+	 * @param int $key The link that you want to return.  Remember that arrays Begin with 0, not 1
 	 * @param string $rel The relationship of the link to return
 	 * @return string|null Link URL
 	 */
@@ -2829,7 +2829,7 @@ class SimplePie
 	 *
 	 * @see get_item_quantity()
 	 * @since Beta 2
-	 * @param int $key The item that you want to return.  Remember that arrays begin with 0, not 1
+	 * @param int $key The item that you want to return.  Remember that arrays Begin with 0, not 1
 	 * @return SimplePie_Item|null
 	 */
 	public function get_item($key = 0)

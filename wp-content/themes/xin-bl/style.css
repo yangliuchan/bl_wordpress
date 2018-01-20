@@ -2,10 +2,10 @@
 Theme Name: xin-BL
 Description: Child theme for the Twenty Ten theme
 Author: Your name here
-Template: Begin5.2
+Template: Begin
 */
 
-@import url("../Begin5.2/style.css");
+@import url("../Begin/style.css");
 
 .search-input input{
     width: 60%;

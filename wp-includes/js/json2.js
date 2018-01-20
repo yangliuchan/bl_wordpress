@@ -483,7 +483,7 @@ if (typeof JSON !== 'object') {
 // crippling inefficiencies in IE's and Safari's regexp engines. First we
 // replace the JSON backslash pairs with '@' (a non-JSON character). Second, we
 // replace all simple value tokens with ']' characters. Third, we delete all
-// open brackets that follow a colon or comma or that begin the text. Finally,
+// open brackets that follow a colon or comma or that Begin the text. Finally,
 // we look to see that the remaining characters are only whitespace or ']' or
 // ',' or ':' or '{' or '}'. If that is so, then the text is safe for eval.
 
@@ -498,7 +498,7 @@ if (typeof JSON !== 'object') {
 
 // In the third stage we use the eval function to compile the text into a
 // JavaScript structure. The '{' operator is subject to a syntactic ambiguity
-// in JavaScript: it can begin a block or an object literal. We wrap the text
+// in JavaScript: it can Begin a block or an object literal. We wrap the text
 // in parens to eliminate the ambiguity.
 
                 j = eval('(' + text + ')');

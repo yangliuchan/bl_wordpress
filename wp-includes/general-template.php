@@ -2865,7 +2865,7 @@ function wp_site_icon() {
  * and pre-connecting to web sites.
  *
  * Gives hints to browsers to prefetch specific pages or render them
- * in the background, to perform DNS lookups or to begin the connection
+ * in the background, to perform DNS lookups or to Begin the connection
  * handshake (DNS, TCP, TLS) in the background.
  *
  * These performance improving indicators work by using `<link rel"…">`.

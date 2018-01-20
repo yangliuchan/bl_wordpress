@@ -265,7 +265,7 @@ class Requests_IDNAEncoder {
 			$output .= '-';
 		}
 #		{if the input contains a non-basic code point < n then fail}
-#		while h < length(input) do begin
+#		while h < length(input) do Begin
 		while ($h < count($codepoints)) {
 #			let m = the minimum code point >= n in the input
 			$m = array_shift($extended);
@@ -274,18 +274,18 @@ class Requests_IDNAEncoder {
 			$delta += ($m - $n) * ($h + 1);
 #			let n = m
 			$n = $m;
-#			for each code point c in the input (in order) do begin
+#			for each code point c in the input (in order) do Begin
 			for ($num = 0; $num < count($codepoints); $num++) {
 				$c = $codepoints[$num];
 #				if c < n then increment delta, fail on overflow
 				if ($c < $n) {
 					$delta++;
 				}
-#				if c == n then begin
+#				if c == n then Begin
 				elseif ($c === $n) {
 #					let q = delta
 					$q = $delta;
-#					for k = base to infinity in steps of base do begin
+#					for k = base to infinity in steps of base do Begin
 					for ($k = self::BOOTSTRAP_BASE; ; $k += self::BOOTSTRAP_BASE) {
 #						let t = tmin if k <= bias {+ tmin}, or
 #								tmax if k >= bias + tmax, or k - bias otherwise
@@ -373,7 +373,7 @@ class Requests_IDNAEncoder {
 		$delta += floor($delta / $numpoints);
 #		let k = 0
 		$k = 0;
-#		while delta > ((base - tmin) * tmax) div 2 do begin
+#		while delta > ((base - tmin) * tmax) div 2 do Begin
 		$max = floor(((self::BOOTSTRAP_BASE - self::BOOTSTRAP_TMIN) * self::BOOTSTRAP_TMAX) / 2);
 		while ($delta > $max) {
 #			let delta = delta div (base - tmin)

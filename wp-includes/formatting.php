@@ -719,7 +719,7 @@ function _get_wptexturize_shortcode_regex( $tagnames ) {
 	$tagregexp = "(?:$tagregexp)(?=[\\s\\]\\/])"; // Excerpt of get_shortcode_regex().
 	$regex =
 		  '\['              // Find start of shortcode.
-		. '[\/\[]?'         // Shortcodes may begin with [/ or [[
+		. '[\/\[]?'         // Shortcodes may Begin with [/ or [[
 		. $tagregexp        // Only match registered shortcodes, because performance.
 		. '(?:'
 		.     '[^\[\]<>]+'  // Shortcodes do not contain other shortcodes. Quantifier critical.

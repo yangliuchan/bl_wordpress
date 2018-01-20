@@ -20929,7 +20929,7 @@ var JSHINT = (function() {
   delim("(endline)");
   (function(x) {
     x.line = x.from = 0;
-  })(delim("(begin)"));
+  })(delim("(Begin)"));
   delim("(end)").reach = true;
   delim("(error)").reach = true;
   delim("}").reach = true;
@@ -21527,7 +21527,7 @@ var JSHINT = (function() {
       if (!isNecessary) {
         isNecessary =
           // Used to distinguish from an ExpressionStatement which may not
-          // begin with the `{` and `function` tokens
+          // Begin with the `{` and `function` tokens
           (opening.beginsStmt && (ret.id === "{" || triggerFnExpr || isFunctor(ret))) ||
           // Used to signal that a function expression is being supplied to
           // some other operator.
@@ -24332,7 +24332,7 @@ var JSHINT = (function() {
       func(api);
     });
 
-    state.tokens.prev = state.tokens.curr = state.tokens.next = state.syntax["(begin)"];
+    state.tokens.prev = state.tokens.curr = state.tokens.next = state.syntax["(Begin)"];
 
     if (o && o.ignoreDelimiters) {
 

@@ -58,7 +58,7 @@ wp.themePluginEditor = (function( $ ) {
 			/*
 			 * Defer adding notices until after DOM ready as workaround for WP Admin injecting
 			 * its own managed dismiss buttons and also to prevent the editor from showing a notice
-			 * when the file had linting errors to begin with.
+			 * when the file had linting errors to Begin with.
 			 */
 			_.defer( function() {
 				component.initCodeEditor();

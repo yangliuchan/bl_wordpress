@@ -133,7 +133,7 @@ jQuery( function ( $ ) {
 			$( '.akismet-mshot' ).remove();
 		}, 200 );
 	} ).on( 'mouseover', 'tr', function () {
-		// When the mouse hovers over a comment row, begin preloading mshots for any links in the comment or the comment author.
+		// When the mouse hovers over a comment row, Begin preloading mshots for any links in the comment or the comment author.
 		var linksToPreloadMshotsFor = $( this ).find( mshotEnabledLinkSelector );
 		
 		linksToPreloadMshotsFor.each( function () {

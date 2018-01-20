@@ -2040,7 +2040,7 @@ function _wp_upload_dir( $time = null ) {
  * @return string New filename, if given wasn't unique.
  */
 function wp_unique_filename( $dir, $filename, $unique_filename_callback = null ) {
-	// Sanitize the file name before we begin processing.
+	// Sanitize the file name before we Begin processing.
 	$filename = sanitize_file_name($filename);
 
 	// Separate the filename into a name and extension.

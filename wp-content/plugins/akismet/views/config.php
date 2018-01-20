@@ -89,7 +89,7 @@
 													$ssl_disabled = get_option( 'akismet_ssl_disabled' );
 
 													if ( $ssl_disabled ) {
-														?><b><?php esc_html_e( 'Temporarily disabled.', 'akismet' ); ?></b> <?php esc_html_e( 'Akismet encountered a problem with a previous SSL request and disabled it temporarily. It will begin using SSL for requests again shortly.', 'akismet' ); ?><?php
+														?><b><?php esc_html_e( 'Temporarily disabled.', 'akismet' ); ?></b> <?php esc_html_e( 'Akismet encountered a problem with a previous SSL request and disabled it temporarily. It will Begin using SSL for requests again shortly.', 'akismet' ); ?><?php
 													}
 													else {
 														?><b><?php esc_html_e( 'Enabled.', 'akismet' ); ?></b> <?php esc_html_e( 'All systems functional.', 'akismet' ); ?><?php
